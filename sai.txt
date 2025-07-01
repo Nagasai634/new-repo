@@ -1,3 +1,0 @@
-in this directory all are jenkins files"
-this is another file
-
