@@ -88,5 +88,6 @@ pipeline {
                 sh "docker push nagasaivardhan/sai:v4"
             }
         }
+        stage
     }
 }
