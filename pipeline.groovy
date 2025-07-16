@@ -19,7 +19,7 @@ pipeline {
         stage('docker') {
             steps {
                 sh "docker pull ubuntu"
-                sh "docker tag nginx nagasaivardhan/sai:v4"
+                sh "docker tag ubuntu nagasaivardhan/sai:v4"
                 sh "docker images"
                 sh "docker login -u ${DOCKER_CREDS_USR} -p ${DOCKER_CREDS_PSW}"
                 sh "docker push nagasaivardhan/sai:v4"

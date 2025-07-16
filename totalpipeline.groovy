@@ -7,14 +7,11 @@ pipeline {
         maven 'maven'         
     }
     stages {
-        stage('Build') {      
+        stage('gitcheckout') {      
             steps {
-                
-                cleanWs()
-                sh "rm -rf spring-petclinic"
-                
+                cleanWs
                 // Clone repository using Jenkins git step instead of shell
-                git 'https://github.com/spring-projects/spring-petclinic.git'
+                sh 'git clone https://github.com/Nagasai634/spring-petclinic.git'
                 
                 // Build with proper error handling
                 dir('spring-petclinic') {

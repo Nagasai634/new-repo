@@ -24,10 +24,13 @@ pipeline {
 
 
 pipeline {
-    agent any
+    agent none
 
     stages {
         stage('build') {
+            agent {
+                label 'jenkins-slave'
+            }
             steps {
                 timeout (time:10,unit:'SECONDS') 
                 {
