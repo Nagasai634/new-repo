@@ -29,3 +29,18 @@ pipeline {
         }
     }
 }
+
+
+
+pipeline{
+    agent {
+        label 'jenkins-slave1'
+    }
+    stages {
+        stage('build'){
+            steps{
+                sh "docker images"
+            }
+        }
+    }   
+}

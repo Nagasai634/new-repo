@@ -1,0 +1,11 @@
+INSERT INTO students (name, email, course)
+VALUES 
+('John Doe', 'john.doe@example.com', 'Introduction to SQL'),
+('Jane Smith', 'jane.smith@example.com', 'Database Management'),
+('Alice Johnson', 'alice.johnson@example.com', 'Data Science'),
+('Charlie White', 'charlie.white@example.com', 'Machine Learning'),
+('David Black', 'david.black@example.com', 'Cybersecurity'),
+('Eva Green', 'eva.green@example.com', 'UI/UX Design'),
+('Frank Harris', 'frank.harris@example.com', 'Mobile App Development'),
+('Grace Lee', 'grace.lee@example.com', 'Game Development'),
+('Bob Brown', 'bob.brown@example.com', 'Web Development');

@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('gitcheckout') {      
             steps {
-                cleanWs
+                cleanWs()
                 // Clone repository using Jenkins git step instead of shell
                 sh 'git clone https://github.com/Nagasai634/spring-petclinic.git'
                 
