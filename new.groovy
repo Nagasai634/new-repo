@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkins-slave'
+        label 'slave-vm'
     }
     tools {
         jdk 'jdk'
@@ -11,8 +11,8 @@ pipeline {
             steps {
                 cleanWs()
                 echo "building the code"
-                sh "git clone https://github.com/demosoftility/Java_Project_SourceCode.git"
-                dir ('Java_Project_SourceCode') {
+                sh "git clone https://github.com/Nagasai634/spring-petclinic.git"
+                dir ('spring-petclinic') {
                     sh 'mvn package'
                 }
             }

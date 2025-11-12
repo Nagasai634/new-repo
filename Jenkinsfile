@@ -15,7 +15,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Hello ${params.PERSON}"
-
+                
                 echo "Biography: ${params.BIOGRAPHY}"
 
                 echo "Toggle: ${params.TOGGLE}"
