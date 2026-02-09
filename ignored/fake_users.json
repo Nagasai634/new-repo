@@ -1,49 +1,58 @@
 {
-  "students": [
+  "users": [
     {
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "course": "Introduction to SQL"
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john.doe@example.com"
     },
     {
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com",
-      "course": "Database Management"
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "email": "jane.smith@example.com"
     },
     {
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
-      "course": "Data Science"
+      "id": 3,
+      "firstname": "Alice",
+      "lastname": "Johnson",
+      "email": "alice.johnson@example.com"
     },
     {
-      "name": "Charlie White",
-      "email": "charlie.white@example.com",
-      "course": "Machine Learning"
+      "id": 4,
+      "firstname": "Charlie",
+      "lastname": "White",
+      "email": "charlie.white@example.com"
     },
     {
-      "name": "David Black",
-      "email": "david.black@example.com",
-      "course": "Cybersecurity"
+      "id": 5,
+      "firstname": "David",
+      "lastname": "Black",
+      "email": "david.black@example.com"
     },
     {
-      "name": "Eva Green",
-      "email": "eva.green@example.com",
-      "course": "UI/UX Design"
+      "id": 6,
+      "firstname": "Eva",
+      "lastname": "Green",
+      "email": "eva.green@example.com"
     },
     {
-      "name": "Frank Harris",
-      "email": "frank.harris@example.com",
-      "course": "Mobile App Development"
+      "id": 7,
+      "firstname": "Frank",
+      "lastname": "Harris",
+      "email": "frank.harris@example.com"
     },
     {
-      "name": "Grace Lee",
-      "email": "grace.lee@example.com",
-      "course": "Game Development"
+      "id": 8,
+      "firstname": "Grace",
+      "lastname": "Lee",
+      "email": "grace.lee@example.com"
     },
     {
-      "name": "Bob Brown",
-      "email": "bob.brown@example.com",
-      "course": "Web Development"
+      "id": 9,
+      "firstname": "Bob",
+      "lastname": "Brown",
+      "email": "bob.brown@example.com"
     }
   ]
 }
