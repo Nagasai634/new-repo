@@ -2,57 +2,43 @@
   "users": [
     {
       "id": 1,
-      "firstname": "John",
-      "lastname": "Doe",
-      "email": "john.doe@example.com"
+      "personalinfo": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "john.doe@example.com"
+      }
     },
     {
       "id": 2,
-      "firstname": "Jane",
-      "lastname": "Smith",
-      "email": "jane.smith@example.com"
+      "personalinfo": {
+        "firstname": "Jane",
+        "lastname": "Smith",
+        "email": "jane.smith@example.com"
+      }
     },
     {
       "id": 3,
-      "firstname": "Alice",
-      "lastname": "Johnson",
-      "email": "alice.johnson@example.com"
+      "personalinfo": {
+        "firstname": "Alice",
+        "lastname": "Johnson",
+        "email": "alice.johnson@example.com"
+      }
     },
     {
       "id": 4,
-      "firstname": "Charlie",
-      "lastname": "White",
-      "email": "charlie.white@example.com"
+      "personalinfo": {
+        "firstname": "Charlie",
+        "lastname": "White",
+        "email": "charlie.white@example.com"
+      }
     },
     {
       "id": 5,
-      "firstname": "David",
-      "lastname": "Black",
-      "email": "david.black@example.com"
-    },
-    {
-      "id": 6,
-      "firstname": "Eva",
-      "lastname": "Green",
-      "email": "eva.green@example.com"
-    },
-    {
-      "id": 7,
-      "firstname": "Frank",
-      "lastname": "Harris",
-      "email": "frank.harris@example.com"
-    },
-    {
-      "id": 8,
-      "firstname": "Grace",
-      "lastname": "Lee",
-      "email": "grace.lee@example.com"
-    },
-    {
-      "id": 9,
-      "firstname": "Bob",
-      "lastname": "Brown",
-      "email": "bob.brown@example.com"
+      "personalinfo": {
+        "firstname": "David",
+        "lastname": "Black",
+        "email": "david.black@example.com"
+      }
     }
   ]
 }
